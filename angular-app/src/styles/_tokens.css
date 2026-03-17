@@ -3,10 +3,11 @@
  */
 
 :root {
-  --color-primary: #44ddaa;
+  --color-primary: #1d2038;
   --color-secondary: #ff0045;
   --color-background: #ffffff;
   --color-text: #111322;
+  --color-border-radius-md: 8;
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
