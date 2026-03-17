@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Figma Component Code Connect",
+  "description": "When an Angular component file is created or updated, prompts to verify the component is correctly mapped to its Figma design counterpart",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "angular-app/src/app/components/**/*.ts",
+      "angular-app/src/app/components/**/*.html",
+      "angular-app/src/app/components/**/*.css"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A component file was just edited. Ask the user if they would like to verify that this component is correctly connected to its Figma design. If the user approves: use the Figma MCP tools to fetch the relevant Figma data for the component and compare it against the current implementation. Check that CSS custom property references match the Figma design tokens. If the user declines: do nothing."
+  }
+}

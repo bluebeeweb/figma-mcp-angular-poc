@@ -1,0 +1,19 @@
+{
+  "name": "tokenized-design-system",
+  "version": "1.0.0",
+  "description": "Proof-of-concept tokenized design system: Figma tokens → Style Dictionary → CSS custom properties → Angular app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:tokens": "node style-dictionary.config.mjs",
+    "test": "vitest --run"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "fast-check": "^3.0.0",
+    "vitest": "^3.0.0"
+  }
+}

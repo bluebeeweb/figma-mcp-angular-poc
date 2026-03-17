@@ -1,0 +1,94 @@
+{
+  "color": {
+    "primary": {
+      "$value": "#1D2038",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#FF0045",
+      "$type": "color"
+    },
+    "background": {
+      "$value": "#ffffff",
+      "$type": "color"
+    },
+    "text": {
+      "$value": "#111322",
+      "$type": "color"
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$value": "4px",
+      "$type": "dimension"
+    },
+    "sm": {
+      "$value": "8px",
+      "$type": "dimension"
+    },
+    "md": {
+      "$value": "16px",
+      "$type": "dimension"
+    },
+    "lg": {
+      "$value": "24px",
+      "$type": "dimension"
+    },
+    "xl": {
+      "$value": "32px",
+      "$type": "dimension"
+    }
+  },
+  "typography": {
+    "heading": {
+      "fontFamily": {
+        "$value": "NeueHaasDisplay, system-ui, sans-serif",
+        "$type": "fontFamily"
+      },
+      "fontSize": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "fontWeight": {
+        "$value": "700",
+        "$type": "fontWeight"
+      },
+      "lineHeight": {
+        "$value": "1.3",
+        "$type": "number"
+      }
+    },
+    "body": {
+      "fontFamily": {
+        "$value": "NeueHaasDisplay, system-ui, sans-serif",
+        "$type": "fontFamily"
+      },
+      "fontSize": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "fontWeight": {
+        "$value": "400",
+        "$type": "fontWeight"
+      },
+      "lineHeight": {
+        "$value": "1.5",
+        "$type": "number"
+      }
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "$value": "4px",
+      "$type": "dimension"
+    },
+    "md": {
+      "$value": "8px",
+      "$type": "dimension"
+    },
+    "lg": {
+      "$value": "16px",
+      "$type": "dimension"
+    }
+  }
+}

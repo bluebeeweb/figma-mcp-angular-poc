@@ -1,0 +1,9 @@
+.demo-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-lg, 24px) var(--spacing-md, 16px);
+}
+
+.demo-section {
+  margin-bottom: var(--spacing-lg, 24px);
+}

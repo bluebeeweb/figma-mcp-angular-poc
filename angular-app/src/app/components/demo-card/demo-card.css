@@ -1,0 +1,6 @@
+.demo-card {
+  background-color: var(--color-background, #ffffff);
+  padding: var(--spacing-lg, 24px);
+  border-radius: var(--border-radius-md, 8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

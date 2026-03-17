@@ -1,0 +1,10 @@
+.demo-button {
+  background-color: var(--color-primary, #1d2038);
+  color: var(--color-background, #ffffff);
+  padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+  border-radius: var(--border-radius-md, 8px);
+  font-size: var(--typography-body-font-size, 16px);
+  font-weight: var(--typography-body-font-weight, 400);
+  border: none;
+  cursor: pointer;
+}
