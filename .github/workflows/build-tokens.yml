@@ -5,6 +5,9 @@ on:
     paths:
       - 'tokens/**'
 
+permissions:
+  contents: write
+
 jobs:
   build-tokens:
     runs-on: ubuntu-latest
