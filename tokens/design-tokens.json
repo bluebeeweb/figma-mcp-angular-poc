@@ -2,7 +2,7 @@
   "color": {
     "primary": {
       "$type": "color",
-      "$value": "#dd44aa"
+      "$value": "#44DDaa"
     },
     "secondary": {
       "$type": "color",
